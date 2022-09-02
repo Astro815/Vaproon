@@ -1,0 +1,28 @@
+body {
+    padding: 1em;
+}
+
+hr {
+    border: 1px solid 1px solid rgb(133 133 133);
+}
+
+.btnBig {
+    opacity: 0%;
+    width: 100%;
+    height: 3em;
+    background: #1EBE66;
+    border: none;
+    font-size: 14pt;
+    color: white;
+    border-radius: 0.5em;
+    margin: 0.1em 0px;
+    animation: openWidth_fadeIn 500ms 50ms forwards;
+}
+
+.btnBig:active {
+    filter: brightness(0.5);
+}
+
+.btnBig>.material-icons {
+    vertical-align: sub;
+}

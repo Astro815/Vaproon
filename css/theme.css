@@ -1,0 +1,17 @@
+.darkTh.thBg {
+    background-color: rgb(37, 37, 37);
+    /*transition: all 0.5s;*/
+}
+
+.whiteTh.thBg {
+    background-color: rgb(255, 255, 255);
+    /*transition: all 0.5s;*/
+}
+
+.darkTh.thTxt {
+    color: rgb(193 193 193);
+}
+
+.whiteTh.thTxt {
+    color: rgb(37, 37, 37);
+}

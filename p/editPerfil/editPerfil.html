@@ -1,0 +1,33 @@
+<html class="whiteTh thBg">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="./epStyle.css">
+<link rel="stylesheet" href="../../css/fontstyle.css">
+<link rel="stylesheet" href="../../css/theme.css">
+
+<body class="whiteTh thBg">
+    <header>
+        <h3 class="whiteTh thTxt">Editar Perfil</h3>
+    </header>
+    <hr class="whiteTh thTxt">
+    <div class="divFormEp">
+        <span class="whiteTh thTxt">Nome:</span>
+        <input id="epName" class="epInput whiteTh thBg thTxt" type="text">
+        <span class="whiteTh thTxt">Data de Nascimento:</span>
+        <input id="epDn" class="epInput whiteTh thBg thTxt" type="date">
+        <span class="whiteTh thTxt">Genero:</span>
+        <select id="slGene" class="epInput whiteTh thBg thTxt">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="Prefiro não dizer">Prefiro não dizer</option>
+            <option value="outros">Outros</option>
+        </select>
+    </div>
+    <div class="btn">
+        <button onclick="applyAP()" style="background:#1CE87B;">Aplicar</button>
+        <button onclick="discartAP()" style="background:#eb4848;">Descartar Alterações</button>
+    </div>
+</body>
+<script src="../../js/global.js"></script>
+<script src="./epScript.js"></script>
+
+</html>

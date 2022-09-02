@@ -1,0 +1,3 @@
+isPag = "pVt";
+
+tickSlotVac();

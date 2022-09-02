@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vatroon - Entrada</title>
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/fontstyle.css">
+    <link rel="stylesheet" href="../css/anim.css">
+    <link rel="stylesheet" href="./ast.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body style="background: linear-gradient(0deg, #77f9ff, white,#77ffa7);">
+    <div id="session0" class="session">
+        <span class="img" style="left: 0%;"></span>
+        <h1>Seja Bem Vindo!</h1><br>
+        <p>Parece que você é novo por aqui! Vamos lhe apresentar o aplicativo para que você possa ter a melhor experiência!</p><br>
+        <input type="button" class="btnNext" onclick="nextSession()" value="Começar">
+    </div>
+    <div id="session1" class="session" style="align-items: flex-start;">
+        <span class="img" style="left: 0%;"></span>
+        <h1 style="margin-top: 3em;">Objetivo</h1><br>
+        <p style="text-align: justify;">Para uma melhor organização em sua saúde, saiba como organizar suas vacinas de um jeito fácil e rápido, utilizando o nosso aplicativo.</p><br>
+        <input type="button" class="btnNext" onclick="nextSession()" value="Próximo >">
+    </div>
+    <div id="session2" class="session">
+        <h1 style="position: fixed;top: 5%;">Tutorial</h1><br>
+        <p style="text-align: center;position: relative;top: -40%;">Essa e os seus atalhos que irá utilizar para utilizar o aplicativo.</p><br>
+        <span style="display: flex;justify-items: center;flex-direction: column;align-items: center;justify-content: flex-start;position: relative;bottom: 10%;">
+            <button >Principal</button>
+            <p>É nesta aba que estão várias informações sobre sua saúde e você pode acessar de maneira rápida e fácil.</p><hr>
+            <button style="width: 12em;">Vacina Agendadas/Tomadas</button>
+            <p>Nesta aba você pode consultar as vacinas que estão ainda em aguardo ou que já foram tomadas.</p><hr>
+            <button >Conta</button>
+            <p>Nesta tela você poderá visualizar e alterar os dados de sua conta.</p>
+        </span>
+        <input type="button" class="btnNext" onclick="nextSession()" value="Próximo >">
+    </div>
+    <div id="session3" class="session">
+        <h1 style="position: fixed;top: 5%;">Conta</h1><br>
+        <p style="position: fixed;top: 12%;">Coloque suas informações aqui!</p><br>
+        <h3>Seu Nome</h3><br class="brSmall">
+        <input type="text" id="epName" class="inputP" placeholder="Seu Nome"><br>
+        <h3>Data de Nascimento</h3><br class="brSmall">
+        <input type="date" id="epDn" class="inputP"><br>
+        <h3>Gênero</h3><br class="brSmall">
+        <select id="epGene" class="inputP">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Prefiro não dizer">Prefiro não dizer</option>
+            <option value="Outros">Outros</option>
+        </select><br>
+        <input type="button" id="btnJoinApp" onclick="joinApp()" value="Cadastrar">
+        <hr>
+        <h2>Importar Conta</h2><br class="brSmall">
+        <p>Se você já possui uma conta e salvou neste dispositivo, importe-a para agilizar o processo de transferência de conta.</p><br>
+        <label for="btnImpotP" style="padding: 1em;text-align: center;align-items: center;justify-content: center;">Importar Conta</label>
+        <input id="btnImpotP" type="file" style="display: none;" accept=".vpnp">
+    </div>
+</body>
+<script src="../js/global.js"></script>
+<script src="./astScript.js"></script>
+
+</html>

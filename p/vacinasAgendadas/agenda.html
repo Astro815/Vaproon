@@ -1,0 +1,62 @@
+<html>
+<link rel="stylesheet" href="./agendaStyle.css">
+<link rel="stylesheet" href="../../css/fontstyle.css">
+<link rel="stylesheet" href="../../css/colors.css">
+<link rel="stylesheet" href="../../css/theme.css">
+<link rel="stylesheet" href="../../css/anim.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body class="whiteTh thBg">
+    <div class="selectVacina no-select">
+        <span class="bgBlack"></span>
+        <div class="SVbase whiteTh thBg">
+            <button onclick="startSelect('close')" class="material-icons whiteTh thBg thTxt" style="position: absolute;right: 0%;top: 0%;margin: 1em;width: 1.5em;height: 1.5em;font-weight: bold;border: none;border-radius: 1em;">close</button>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <span id="SVTXTicon" class="material-icons SVicon whiteTh thTxt" style="font-size: 6em;">event</span>
+                    </td>
+                    <td>
+                        <h3 id="SVTXTname" class="whiteTh thTxt">[Nome]</h3><br>
+                        <p id="SVTXTdesc" class="whiteTh thTxt">[Descrição]</p>
+                    </td>
+                </tr>
+                <tr class="SVbtn">
+                    <td id="SVTXTdata" class="whiteTh thTxt">[data]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button onclick="delVacina()" id="SVBremove" class="SVBremove" style="float: left;">Remover</button>
+                        <button onclick="applyVacina()" id="SVBapply" class="SVBapply">Aplicada</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button id="actAddVac" class="bav_false"><on>Cancelar</on><off>Adicionar Vacina</off></button>
+    <div id="FormAddVacina">
+        <input id="nameVacAdd" placeholder="Nome" type="text">
+        <input id="dataVacAdd" type="date"><br>
+        <span id="dateErro" class="dateErrorfalse">A data marcada já passou.</span>
+        <input id="descVacAdd" placeholder="Descrição (opicional)" type="text"><br>
+        <button id="btnConfirmAddConsulte">Adicionar</button>
+    </div>
+    <hr>
+    <table class="vacinaList">
+        <tr>
+            <th class="whiteTh thBg thTxt">
+                <p>Vacinas</p>
+            </th>
+        </tr>
+        <tr class="vacListSlots">
+            <td style="display: block;padding: 0.5em 0em;width: 100%;">
+                <ul style="padding: 0px;display: flex;flex-direction: column;align-items: center;width: 100%;user-select: none;">
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <script src="../../js/global.js"></script>
+    <script src="./vacinasAg.js"></script>
+</body>
+
+</html>
