@@ -24,6 +24,8 @@ let checkDesc = (d) => {
     }
 };
 
+// FOI MUITO LEGAL CRIAR TUDO ISSO, COM OS CÓDIGOS E TALS :D
+
 let setIcon = (type) => {
     if (type == "tvApliced") {
         return "event_available";

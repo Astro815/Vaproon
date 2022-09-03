@@ -4,6 +4,8 @@ function setDU() {
     qs("#slGene").value = dataUser.gene;
 }
 
+// UM DESAFIO EM TANTO, MAS CONSEGUI (ehhh, mas agora que eu to escrevendo isso aqui são 19:20, e tenho que entregar hoje kkkk)
+
 function applyAP() {
     let confirmAP = confirm("Tem certeza que quer alterar suas informações no aplicativo?");
     if (confirmAP) {

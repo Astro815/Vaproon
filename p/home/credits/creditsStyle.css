@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 0.2em 0em;
+}
+
+.material-icons {
+    vertical-align: sub;
+}
+
+div.credit {
+    padding: 0em 1em;
+    box-sizing: border-box;
+}
+
+div.credit>div {
+    opacity: 0%;
+    border-radius: 1em;
+    margin: 1em 0em;
+}
+
+div.credit>span {
+    margin: 1em 0em;
+}
+
+div.credit a {
+    display: block;
+    /*font-weight: bold;*/
+    background: rgb(30, 190, 102);
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 1em;
+    margin: 0.2em;
+}
+
+
+/*
+div.credit>div:nth-child(2) {
+    animation: moveLeft_fadeIn 500ms 150ms forwards;
+}
+
+div.credit>div:nth-child(3) {
+    animation: moveLeft_fadeIn 500ms 250ms forwards;
+}
+
+div.credit>div:nth-child(4) {
+    animation: moveLeft_fadeIn 500ms 250ms forwards;
+}
+
+div.credit>div:nth-child(5) {
+    animation: moveLeft_fadeIn 500ms 250ms forwards;
+}
+
+div.credit>div:nth-child(6) {
+    animation: moveLeft_fadeIn 500ms 250ms forwards;
+}
+
+div.credit>div>ul {
+    padding: 10px 40px 10px 40px;
+    background: #06680040;
+    font-weight: normal;
+    margin: 0px;
+}
+
+div.credit>div>p {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.4em 1em;
+}
+
+div.credit>ul>li {
+    list-style: decimal;
+}*/
