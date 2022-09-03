@@ -15,3 +15,13 @@
 .whiteTh.thTxt {
     color: rgb(37, 37, 37);
 }
+
+.whiteTh.thBtn {
+    color: aliceblue;
+    background: #222222;
+}
+
+.darkTh.thBtn {
+    color: #222222;
+    background: aliceblue;
+}

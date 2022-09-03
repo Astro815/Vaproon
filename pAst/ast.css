@@ -135,6 +135,7 @@ label {
     box-sizing: border-box;
     /*position: absolute;
     bottom: 5%;*/
+    margin: 1em;
 }
 
 hr {

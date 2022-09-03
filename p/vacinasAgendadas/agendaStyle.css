@@ -6,7 +6,7 @@
     padding: 0.3em;
     box-sizing: border-box;
     border-radius: 1em;
-    color: #dce2e9;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -36,11 +36,11 @@
     border-radius: 1em;
     color: #ffffff;
     font-size: 18px;
-    background-color: rgb(30, 190, 102);
+    background: linear-gradient(322deg, rgb(30, 190, 102), rgb(61 223 208));
 }
 
 #actAddVac.bav_true {
-    background-color: rgb(240, 74, 33);
+    background: linear-gradient(135deg, rgb(219 97 50), rgb(215 38 38));
     border: rgb(153, 56, 18) solid 4px;
 }
 
@@ -62,7 +62,7 @@
 
 #actAddVac.bav_false {
     border: rgb(18, 153, 90) solid 4px;
-    background-color: rgb(30, 190, 102);
+    background: linear-gradient(322deg, rgb(30, 190, 102), rgb(61 223 208));
 }
 
 #actAddVac.bav_true+#FormAddVacina {
@@ -91,7 +91,8 @@ input {
     height: 85%;
     min-height: 3em;
     /*background-color: rgb(61, 75, 75);*/
-    background: linear-gradient(340deg, rgb(37 72 46), rgb(64 100 94), rgb(83 153 101));
+    background: linear-gradient(314deg, #0f6868, #4d7e5169), url(../../img/bg.png);
+    background-size: cover;
     border-radius: 1em;
     border-spacing: 0px;
     /*border: rgb(46, 46, 46) 2px solid;*/

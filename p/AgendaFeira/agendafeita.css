@@ -4,7 +4,8 @@
     width: 100%;
     height: 100%;
     min-height: 3em;
-    background-color: rgb(61, 75, 75);
+    background: linear-gradient(314deg, #0f6868, #4d7e5169), url(../../img/bg.png);
+    background-size: cover;
     border-radius: 1em;
     border-spacing: 0px;
     /*border: rgb(46, 46, 46) 2px solid;*/
