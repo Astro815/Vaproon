@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.material-icons {
+    vertical-align: sub;
+}
+
+h4 {
+    margin: 0.2em 0em;
+}
+
+div.help {
+    padding: 0em 1em;
+    box-sizing: border-box;
+}
+
+div.help>div {
+    opacity: 0%;
+    border-radius: 1em;
+    margin: 1em 0em;
+}
