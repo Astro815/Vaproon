@@ -133,8 +133,8 @@ label {
     color: white;
     /* font-weight: bold; */
     box-sizing: border-box;
-    position: absolute;
-    bottom: 5%;
+    /*position: absolute;
+    bottom: 5%;*/
 }
 
 hr {
