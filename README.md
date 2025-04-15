@@ -1,2 +1,2 @@
 # Vaproon
-Uma carteira digital de vacinação para se organizar facilmente a sua saúde, projeto agrinho 2022.
+Vaproon é um projeto desenvolvido para a competição Agrinho 2022, na categoria de programação, onde conquistei o 1º lugar no estado do Paraná - Brasil. O tema da edição era "Ajudar uma comunidade local", e minha proposta foi criar uma carteira de vacinação online, que facilita o agendamento de vacinas e melhora a organização e eficiência do processo. O Vaproon também reúne informações importantes sobre saúde e os períodos de vacinação, promovendo mais acesso e conscientização para a comunidade.
